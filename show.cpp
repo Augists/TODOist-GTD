@@ -18,12 +18,13 @@ using namespace std;
 
 void partialLine()
 {
-	cout << "-------------------------------------" << endl;
+	cout << "--------------------------------------------------------------" << endl;
 }
 
 void showPart(ifstream &p)
 {
 	partialLine();
+	cout << endl;
 	int i = 0;
 	char buffer[100];
 	p.getline(buffer, 100);
