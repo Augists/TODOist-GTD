@@ -23,6 +23,7 @@ long posIn[7];
 
 int main(int argc, const char *argv[])
 {
+	showTitle();
 	/* ifstream readTodo("~/Downloads/.todo", ios::in); */
 	ifstream readTodo("./.todo", ios::in);
 	if (!readTodo.is_open())

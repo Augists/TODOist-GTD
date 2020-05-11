@@ -37,7 +37,6 @@ void showPart(ifstream &p)
 
 void showAll(ifstream &start, long *pos)
 {
-	showTitle();
 	for (int i = 0; i < 7; i++)
 	{
 		findPlusPlus(start);
