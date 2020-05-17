@@ -10,6 +10,7 @@ A **TODOist** with **GTD** method in c++
 - [ ] GTD method
 - [ ] date
 - [ ] red list for outdated
+- [ ] lay in the same line
 
 ## License
 
